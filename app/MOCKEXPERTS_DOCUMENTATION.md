@@ -7,9 +7,10 @@
 4. [Subscription Plans](#subscription-plans)
 5. [Technical Architecture](#technical-architecture)
 6. [Platform Goals](#platform-goals)
-7. [Target Audience](#target-audience)
-8. [Security Features](#security-features)
-9. [Future Roadmap](#future-roadmap)
+7. [Organizational Interview Platform](#organizational-interview-platform)
+8. [Target Audience](#target-audience)
+9. [Security Features](#security-features)
+10. [Success Metrics](#success-metrics)
 
 ## 🎯 Overview
 
@@ -62,7 +63,7 @@ To become the world's leading AI-powered interview preparation platform, helping
 ## 💰 Subscription Plans
 
 ### **Starter Plan** (Free)
-- **Price**: $0
+- **Price**: INR 0
 - **Access**: One-time basic MCQ interview
 - **Features**:
   - 1 basic MCQ interview
@@ -75,7 +76,7 @@ To become the world's leading AI-powered interview preparation platform, helping
   - No progress tracking
 
 ### **Ascent Plan** (Individual Purchase)
-- **Price**: $9 (Discounted: $5.99)
+- **Price**: INR 129 
 - **Access**: 1 interview credit
 - **Features**:
   - 1 MCQ interview credit
@@ -87,7 +88,7 @@ To become the world's leading AI-powered interview preparation platform, helping
   - No progress tracking
 
 ### **Zenith Plan** (Premium)
-- **Price**: $59 (Discounted: $39.99)
+- **Price**: INR 999
 - **Access**: 10 interview credits
 - **Features**:
   - 10 MCQ interview credits
@@ -98,21 +99,12 @@ To become the world's leading AI-powered interview preparation platform, helping
   - Early access to new features
   - 30-day session validity
 
-### **Regional Pricing**
-The platform offers region-specific pricing:
-- **US**: USD pricing
-- **India**: INR pricing (₹199/₹129 for Ascent, ₹1499/₹999 for Zenith)
-- **UK**: GBP pricing
-- **EU**: EUR pricing
-- **Canada**: CAD pricing
-- **Nigeria**: NGN pricing
-- **Brazil**: BRL pricing
-- **Australia**: AUD pricing
+
 
 ## 🏗️ Technical Architecture
 
 ### **Frontend Stack**
-- **Framework**: Next.js 14 with App Router
+- **Framework**: Next.js 15 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS with custom components
 - **State Management**: Redux Toolkit
@@ -141,8 +133,7 @@ The platform offers region-specific pricing:
 1. **User Growth**: Reach 10,000+ active users
 2. **Question Bank Expansion**: Increase to 1000+ questions
 3. **Feature Enhancement**: Add video interview capabilities
-4. **Mobile App**: Launch native mobile applications
-5. **Partnerships**: Collaborate with tech companies for question validation
+4. **Partnerships**: Collaborate with tech companies for question validation
 
 ### **Medium-term Goals (6-12 months)**
 1. **AI Enhancement**: Implement more sophisticated AI analysis
@@ -157,6 +148,122 @@ The platform offers region-specific pricing:
 3. **Advanced AI**: Implement predictive interview success scoring
 4. **Industry Partnerships**: Partner with major tech companies
 5. **Educational Integration**: Integrate with universities and bootcamps
+
+## 🏢 Organizational Interview Platform
+
+### **Overview**
+MockExperts is expanding to serve organizations as a comprehensive first-round interview solution. This enterprise-grade platform will enable companies to conduct standardized, AI-powered technical assessments for their hiring processes, significantly reducing time-to-hire and improving candidate quality.
+
+### **Key Benefits for Organizations**
+
+#### **1. Streamlined Hiring Process**
+- **Automated First Round**: Eliminate manual screening with AI-powered assessments
+- **Standardized Evaluation**: Consistent evaluation criteria across all candidates
+- **Reduced Time-to-Hire**: Cut screening time by 70% through automated processes
+- **Scalable Solution**: Handle hundreds of candidates simultaneously
+
+#### **2. Quality Candidate Selection**
+- **Role-Specific Assessments**: Customized questions based on job requirements
+- **Skill-Based Filtering**: AI identifies candidates with required technical competencies
+- **Performance Analytics**: Detailed reports on candidate strengths and weaknesses
+- **Predictive Success Scoring**: AI predicts candidate success probability
+
+#### **3. Cost Efficiency**
+- **Reduced HR Overhead**: Minimize manual interview scheduling and coordination
+- **Lower Recruitment Costs**: Automated screening reduces per-hire costs
+- **Improved ROI**: Focus resources on qualified candidates only
+- **Bulk Assessment Pricing**: Volume discounts for enterprise clients
+
+### **Organizational Features**
+
+#### **1. Custom Assessment Builder**
+- **Question Bank Access**: 500+ pre-built questions across technologies
+- **Custom Question Creation**: Add company-specific technical questions
+- **Assessment Templates**: Pre-configured templates for common roles
+- **Difficulty Customization**: Adjust question complexity based on role level
+
+#### **2. Advanced Analytics Dashboard**
+- **Candidate Performance Tracking**: Monitor individual and batch performance
+- **Comparative Analysis**: Compare candidates across multiple dimensions
+- **Skill Gap Analysis**: Identify common weaknesses in candidate pool
+- **Hiring Funnel Analytics**: Track conversion rates at each stage
+
+#### **3. Integration Capabilities**
+- **ATS Integration**: Seamless integration with popular ATS platforms
+- **HRIS Connectivity**: Connect with existing HR information systems
+- **API Access**: RESTful APIs for custom integrations
+- **Single Sign-On (SSO)**: Enterprise authentication integration
+
+#### **4. Compliance & Security**
+- **GDPR Compliance**: Full data protection compliance
+- **SOC 2 Type II**: Enterprise-grade security certification
+- **Data Residency**: Choose data storage location
+- **Audit Trails**: Complete activity logging for compliance
+
+### **Organizational Pricing Plans**
+
+#### **Starter Enterprise** (Small Teams)
+- **Price**: INR 2,999/month
+- **Features**:
+  - Up to 50 assessments per month
+  - Basic analytics dashboard
+  - Standard question bank access
+  - Email support
+  - Basic ATS integration
+
+#### **Growth Enterprise** (Medium Companies)
+- **Price**: INR 7,999/month
+- **Features**:
+  - Up to 200 assessments per month
+  - Advanced analytics and reporting
+  - Custom question creation
+  - Priority support
+  - Full ATS integration
+  - API access
+
+#### **Enterprise Plus** (Large Organizations)
+- **Price**: Custom pricing
+- **Features**:
+  - Unlimited assessments
+  - White-label solution
+  - Dedicated account manager
+  - Custom integrations
+  - On-premise deployment options
+  - Advanced security features
+
+### **Implementation Timeline**
+
+#### **Phase 1: MVP Development (3-4 months)**
+- Basic organizational dashboard
+- Custom assessment creation
+- Candidate management system
+- Basic analytics and reporting
+
+#### **Phase 2: Advanced Features (4-6 months)**
+- Advanced analytics dashboard
+- ATS integrations
+- API development
+- Enhanced security features
+
+#### **Phase 3: Enterprise Features (6-8 months)**
+- White-label solutions
+- Advanced compliance features
+- Custom integrations
+- On-premise deployment
+
+### **Success Metrics for Organizations**
+
+#### **Operational Efficiency**
+- **Time-to-Hire Reduction**: 60-70% faster hiring cycles
+- **Cost per Hire**: 40-50% reduction in recruitment costs
+- **Candidate Quality**: 80%+ qualified candidates in final rounds
+- **HR Productivity**: 3x increase in screening capacity
+
+#### **Business Impact**
+- **Hiring Success Rate**: 90%+ successful placements
+- **Employee Retention**: Improved retention through better candidate matching
+- **Scalability**: Handle 10x more candidates with same resources
+- **ROI**: 300%+ return on investment within 6 months
 
 ## 👥 Target Audience
 
@@ -188,31 +295,6 @@ The platform offers region-specific pricing:
 - **GDPR Compliance**: User data protection and privacy controls
 - **Regular Security Audits**: Ongoing security assessments
 
-## 🚀 Future Roadmap
-
-### **Phase 1: Enhanced AI Capabilities**
-- **Video Interview Analysis**: AI-powered video interview feedback
-- **Behavioral Assessment**: Personality and soft skills evaluation
-- **Predictive Analytics**: Interview success probability scoring
-- **Personalized Learning Paths**: AI-generated study plans
-
-### **Phase 2: Platform Expansion**
-- **Mobile Applications**: Native iOS and Android apps
-- **Offline Mode**: Downloadable content for offline practice
-- **Multi-language Support**: Support for 10+ languages
-- **Accessibility Features**: Screen reader and keyboard navigation support
-
-### **Phase 3: Enterprise Solutions**
-- **Corporate Training**: Company-specific interview preparation
-- **Recruitment Tools**: Candidate assessment and screening
-- **Analytics Dashboard**: Advanced reporting and insights
-- **API Integration**: Third-party platform integrations
-
-### **Phase 4: Advanced Features**
-- **Virtual Reality Interviews**: Immersive interview simulations
-- **Peer Practice**: User-to-user mock interviews
-- **Expert Mentorship**: Connect with industry professionals
-- **Certification Programs**: Industry-recognized credentials
 
 ## 📊 Success Metrics
 
